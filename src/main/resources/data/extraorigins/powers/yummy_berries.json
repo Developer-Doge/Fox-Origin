@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:food",
+    "food": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "food_modifier": {
+    "name": "gives player two more food when eating sweet berries",
+    "value": 1,
+    "operation": "addition"
+  },
+  "saturation_modifier": {
+    "name": "gives player two more saturation when eating berries",
+    "value": 2,
+    "operation": "addition"
+  },
+  "entity_action": {
+    "type": "origins:heal",
+    "amount": 1
+  }
+}

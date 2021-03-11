@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "wiicustomorigins",
+  "version": "${version}",
+  "name": "WiiDude's Fox Origin",
+  "description": "Adds more origins to the Origins mod and adds a lightweight Pekhui integration, this mod is heavily based off of extra origins.",
+  "authors": [
+	"MoriyaShiine (for creating extra origins)",
+    "WiiDude"
+  ],
+  "contact": {
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-origins",
+	"sources": "https://github.com/Developer-Doge/Fox-Origin"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/wiicustomorigins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "wiicustomorigins.extraorigins.common.ExtraOrigins"
+	]
+  },
+  "mixins": [
+	"extraorigins.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.11.0",
+	"fabric": "*",
+	"minecraft": "1.16.5",
+	"origins": ">=0.6.0",
+	"pehkui": ">=1.7.1+21w03a"
+  }
+}

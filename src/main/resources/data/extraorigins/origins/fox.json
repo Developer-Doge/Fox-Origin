@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"extraorigins:yummy_berries",
+		"extraorigins:yummy_chicken",
+		"extraorigins:quick_feet",
+		"extraorigins:quick_jump",
+		"extraorigins:big_brother",
+		"extraorigins:bite_sized"
+	],
+	"icon": "minecraft:fox_spawn_egg",
+	"order": 9,
+	"impact": 2,
+	"name": "Foxling",
+	"description": "The Foxling is a humanoid cousin to the fox we know today, Foxlings are the descendants of the great Foox. The Foxling no longer have the ability to turn into a fox at will but still have the attributes of their ancestors."
+}

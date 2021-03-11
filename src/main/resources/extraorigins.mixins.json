@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wiicustomorigins.extraorigins.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"TrackTargetGoalMixin"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
