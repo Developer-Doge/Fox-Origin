@@ -2,7 +2,7 @@
   "type": "origins:multiple",
   "modify_size": {
 	"type": "wiicustomorigins:modify_size",
-	"scale": 0.8
+	"scale": 1.15
   },
   "attribute_modifiers": {
 	"type": "origins:attribute",
@@ -10,7 +10,7 @@
 	  {
 		"name": "Origin modifier",
 		"attribute": "generic.max_health",
-		"value": -2,
+		"value": -1,
 		"operation": "addition"
 	  },
 	  {

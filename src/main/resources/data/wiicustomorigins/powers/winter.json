@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action":
+  {
+    "type": "origins:apply_effect",
+    "effect":
+    {
+      "effect": "strength",
+      "duration": 20,
+      "show_particles": false
+    }
+  },
+  "interval": 20,
+  "condition":
+  {
+    "type": "origins:biome",
+    "biomes": [
+      "minecraft:snowy_tundra",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_taiga",
+      "minecraft_snowy_taiga_mountains",
+      "minecraft:frozen_river",
+      "minecraft:snowy_beach"
+    ]
+  },
+  "hidden": true
+}

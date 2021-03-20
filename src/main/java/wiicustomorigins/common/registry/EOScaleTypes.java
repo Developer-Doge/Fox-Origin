@@ -1,6 +1,6 @@
-package wiicustomorigins.extraorigins.common.registry;
+package wiicustomorigins.common.registry;
 
-import wiicustomorigins.extraorigins.common.ExtraOrigins;
+import wiicustomorigins.common.WiiCustomOrigins;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 import virtuoel.pehkui.api.ScaleData;
@@ -23,7 +23,7 @@ public class EOScaleTypes {
 	});
 	
 	private static <T> T register(Map<Identifier, T> registry, String name, T entry) {
-		return ScaleRegistries.register(registry, new Identifier(ExtraOrigins.MODID, name), entry);
+		return ScaleRegistries.register(registry, new Identifier(WiiCustomOrigins.MODID, name), entry);
 	}
 	
 	public static void init() {

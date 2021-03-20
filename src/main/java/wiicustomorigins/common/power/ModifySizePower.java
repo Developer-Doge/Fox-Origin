@@ -1,8 +1,8 @@
-package wiicustomorigins.extraorigins.common.power;
+package wiicustomorigins.common.power;
 
 import io.github.apace100.origins.power.Power;
 import io.github.apace100.origins.power.PowerType;
-import wiicustomorigins.extraorigins.common.registry.EOScaleTypes;
+import wiicustomorigins.common.registry.EOScaleTypes;
 import net.minecraft.entity.player.PlayerEntity;
 import virtuoel.pehkui.api.ScaleData;
 

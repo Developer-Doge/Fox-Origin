@@ -1,7 +1,6 @@
 {
   "replace": false,
   "origins": [
-	"extraorigins:fox"
-
+	"wiicustomorigins:fox"
   ]
 }

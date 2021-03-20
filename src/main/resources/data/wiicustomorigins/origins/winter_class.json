@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"wiicustomorigins3423:winter"
+	],
+	"icon": "minecraft:snowball",
+	"order": 9,
+	"impact": 1,
+	"name": "Winter Adaptions",
+	"description": "Your body is adapted to cold environments."
+}

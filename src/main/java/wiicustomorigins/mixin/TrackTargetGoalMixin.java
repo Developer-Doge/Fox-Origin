@@ -1,7 +1,7 @@
-package wiicustomorigins.extraorigins.mixin;
+package wiicustomorigins.mixin;
 
 import io.github.apace100.origins.component.OriginComponent;
-import wiicustomorigins.extraorigins.common.power.ModifySizePower;
+import wiicustomorigins.common.power.ModifySizePower;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.TrackTargetGoal;
 import net.minecraft.entity.mob.MobEntity;

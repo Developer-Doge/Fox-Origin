@@ -1,11 +1,11 @@
 {
 	"powers": [
-		"extraorigins:yummy_berries",
-		"extraorigins:yummy_chicken",
-		"extraorigins:quick_feet",
-		"extraorigins:quick_jump",
-		"extraorigins:big_brother",
-		"extraorigins:bite_sized"
+		"wiicustomorigins:yummy_berries",
+		"wiicustomorigins:yummy_chicken",
+		"wiicustomorigins:quick_feet",
+		"wiicustomorigins:quick_jump",
+		"wiicustomorigins:big_brother",
+		"wiicustomorigins:bite_sized"
 	],
 	"icon": "minecraft:fox_spawn_egg",
 	"order": 9,
