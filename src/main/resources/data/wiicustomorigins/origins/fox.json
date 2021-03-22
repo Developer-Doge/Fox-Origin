@@ -2,10 +2,12 @@
 	"powers": [
 		"wiicustomorigins:yummy_berries",
 		"wiicustomorigins:yummy_chicken",
-		"wiicustomorigins:quick_feet",
-		"wiicustomorigins:quick_jump",
+		"wiicustomorigins:energetic",
+		"wiicustomorigins:pounce",
 		"wiicustomorigins:big_brother",
-		"wiicustomorigins:bite_sized"
+		"wiicustomorigins:bite_sized",
+		"wiicustomorigins:sly_fox",
+		"wiicustomorigins:fox"
 	],
 	"icon": "minecraft:fox_spawn_egg",
 	"order": 9,

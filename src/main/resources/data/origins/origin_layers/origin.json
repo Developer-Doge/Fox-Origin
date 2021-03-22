@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
-	"wiicustomorigins:fox"
+	"wiicustomorigins:fox",
+  "wiicustomorigins:lepus"
   ]
 }

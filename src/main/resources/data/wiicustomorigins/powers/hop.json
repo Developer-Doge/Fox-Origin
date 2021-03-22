@@ -1,0 +1,19 @@
+{
+    "type": "origins:launch",
+    "name": "Hop",
+    "description": "A hefty jump, meant to climb or to escape from predators",
+    "cooldown": 25,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 8,
+        "condition": {
+            "value": true,
+            "type": "origins:constant",
+            "inverted": false
+        }
+    },
+    "hidden": false,
+    "speed": 1,
+    "sound": "minecraft:entity.rabbit.hurt"
+}

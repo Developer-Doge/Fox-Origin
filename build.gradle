@@ -27,6 +27,10 @@ repositories {
         name = "cloth config"
         url = "https://maven.shedaniel.me/"
     }
+    maven {
+        name = "CottonMC"
+        url = "https://server.bbkr.space/artifactory/libs-release"
+    }
 }
 
 dependencies {
@@ -38,6 +42,7 @@ dependencies {
     modImplementation("com.github.virtuoel:pehkui:${project.pehkui_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+    modImplementation include("io.github.cottonmc:LibGui:3.3.5+1.16.5")
 }
 
 processResources {

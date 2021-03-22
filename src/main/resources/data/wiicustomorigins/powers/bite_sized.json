@@ -1,36 +1,17 @@
 {
-  "type": "origins:multiple",
-  "modify_size": {
-	"type": "wiicustomorigins:modify_size",
-	"scale": 1.15
-  },
-  "attribute_modifiers": {
-	"type": "origins:attribute",
-	"modifiers": [
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.max_health",
-		"value": -1,
-		"operation": "addition"
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "generic.attack_speed",
-		"value": 0.5,
-		"operation": "addition"
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "reach-entity-attributes:attack_range",
-		"value": -0.1,
-		"operation": "addition"
-	  },
-	  {
-		"name": "Origin modifier",
-		"attribute": "reach-entity-attributes:reach",
-		"value": -0.5,
-		"operation": "addition"
-	  }
-	]
-  }
+	"type": "origins:action_on_callback",
+	"entity_action_added":
+	{
+		"type": "origins:execute_command",
+		"command": "scale set 0.8 @s",
+		"permission_level": 4
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:execute_command",
+		"command": "scale set 0.8 @s",
+		"permission_level": 4
+	},
+	"execute_chosen_when_orb": true,
+	"hidden": true
 }

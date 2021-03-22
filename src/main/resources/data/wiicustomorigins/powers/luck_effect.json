@@ -1,0 +1,16 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Lucky Foot",
+    "hidden": false,
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 4000000,
+    "effect": {
+        "duration": 20,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false,
+        "effect": "minecraft:luck"
+    },
+    "description": "Get better loot from chests and fishing!"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "origins:launch",
+  "cooldown": 60,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 2,
+    "condition": {
+      "value": true,
+      "type": "origins:constant",
+      "inverted": false
+    }
+  },
+  "sound": "minecraft:entity.fox.ambient",
+  "speed": 0.75,
+  "key": "primary",
+  "name": "Pounce",
+  "description": "You can jump up high and pounce something by pressing your primary ability key."
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:entity_group",
+  "group": "illager",
+  "name": "Bad guy",
+  "description": "Illagers love you but villagers do not. You are unable to trade with villagers."
+}

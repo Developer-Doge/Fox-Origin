@@ -1,0 +1,23 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "inverted": false,
+        "ingredient": {
+            "tag": "minecraft:golden_carrot"
+        }
+    },
+    "name": "Golden Vision",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "duration": 1200,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true,
+            "effect": "minecraft:night_vision"
+        }
+    },
+    "description": "Golden carrots are so good for your eyes, they let you see in the dark for a while!",
+    "hidden": false
+}
