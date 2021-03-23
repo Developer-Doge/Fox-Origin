@@ -15,5 +15,9 @@
     },
     "hidden": false,
     "speed": 1,
-    "sound": "minecraft:entity.rabbit.hurt"
+    "sound": "minecraft:entity.rabbit.hurt",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
 }
