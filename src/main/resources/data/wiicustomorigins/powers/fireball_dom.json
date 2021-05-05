@@ -2,7 +2,7 @@
 
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:wither_skull",
-	"cooldown":10,
+	"cooldown":15,
 	"count":1,
 	"speed":1.5,
 	"hud_render":{
