@@ -1,6 +1,6 @@
 {
   "type": "origins:launch",
-  "cooldown": 60,
+  "cooldown": 45,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/resource_bar.png",
@@ -12,7 +12,7 @@
     }
   },
   "sound": "minecraft:entity.fox.ambient",
-  "speed": 0.75,
+  "speed": 1,
   "key": {
     "key": "key.origins.primary_active",
     "continuous": true
