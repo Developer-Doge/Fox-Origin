@@ -1,10 +1,10 @@
 plugins {
-    id 'fabric-loom' version '0.6-SNAPSHOT'
+    id 'fabric-loom' version '0.8-SNAPSHOT'
     id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_16
+targetCompatibility = JavaVersion.VERSION_16
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
@@ -12,37 +12,36 @@ group = project.maven_group
 
 repositories {
     maven {
-        name = "jitpack"
-        url = "https://jitpack.io"
+        name "player ability lib"
+        url "https://ladysnake.jfrog.io/artifactory/mods"
     }
     maven {
-        name = "entity reach"
-        url = "https://maven.jamieswhiteshirt.com/libs-release/"
+        name "fall flying lib"
+        url "https://maven.cafeteria.dev"
     }
     maven {
-        name = "fall flying lib"
-        url = "https://dl.bintray.com/adriantodt/maven"
+        name "entity reach"
+        url "https://maven.jamieswhiteshirt.com/libs-release/"
     }
     maven {
-        name = "cloth config"
-        url = "https://maven.shedaniel.me/"
+        name "cloth config"
+        url "https://maven.shedaniel.me/"
     }
     maven {
-        name = "CottonMC"
-        url = "https://server.bbkr.space/artifactory/libs-release"
+        name "jitpack"
+        url "https://jitpack.io"
     }
 }
 
 dependencies {
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
-    modImplementation("com.github.virtuoel:pehkui:${project.pehkui_version}") {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+    modImplementation "com.github.apace100:origins-fabric:${origins_version}"
+    modImplementation("com.github.virtuoel:pehkui:${pehkui_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
-    modImplementation include("io.github.cottonmc:LibGui:3.3.5+1.16.5")
 }
 
 processResources {
