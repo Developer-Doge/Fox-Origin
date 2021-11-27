@@ -24,10 +24,10 @@
 	"wiicustomorigins.mixins.json"
   ],
   "depends": {
-    "fabricloader": "*",
-    "fabric": "*",
-    "minecraft": "1.17.*",
-    "origins": "*",
-    "pehkui": ">=2.2.1"
+	"fabricloader": ">=0.11.0",
+	"fabric": "*",
+	"minecraft": "1.16.5",
+	"origins": ">=0.6.2",
+	"pehkui": ">=1.9.0+21w10a"
   }
 }
