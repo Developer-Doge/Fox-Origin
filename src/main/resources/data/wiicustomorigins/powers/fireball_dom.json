@@ -2,16 +2,16 @@
 
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:wither_skull",
-	"cooldown":200,
+	"cooldown":15,
 	"count":1,
-	"speed":5,
+	"speed":1.5,
 	"hud_render":{
 		"should_render": false,
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 		"bar_index":5
 	},
 	"tag": "{ExplosionPower:8,Tags:[\"fire\"]}",
-	"key":"secondary",
+	"key":"primary",
 	"name": "Fire Ball",
 	"description": "Harness the power of your ancestors! Ignite the gas inside of you and launch a small fire ball in any direction! This ability can be activated with your Primary Power Key, and has a 10 second cooldown."
 	
