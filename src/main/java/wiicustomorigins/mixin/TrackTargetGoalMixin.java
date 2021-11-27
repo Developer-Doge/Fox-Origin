@@ -1,11 +1,10 @@
 package wiicustomorigins.mixin;
 
-import io.github.apace100.origins.component.OriginComponent;
+import io.github.apace100.apoli.component.PowerHolderComponent;
 import wiicustomorigins.common.power.ModifySizePower;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.TrackTargetGoal;
 import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -23,13 +22,21 @@ public abstract class TrackTargetGoalMixin {
 	protected LivingEntity target;
 	
 	@Inject(method = "getFollowRange", at = @At("RETURN"), cancellable = true)
-	private void getFollowRange(CallbackInfoReturnable<Double> callbackInfo) {
+	private void getFollowRange(CallbackInfoReturnable<Double> cir) {
 		LivingEntity target = mob.getTarget();
 		if (target == null) {
 			target = this.target;
 		}
-		if (target instanceof PlayerEntity && OriginComponent.hasPower(target, ModifySizePower.class)) {
-			callbackInfo.setReturnValue(callbackInfo.getReturnValue() * OriginComponent.getPowers(target, ModifySizePower.class).get(0).scale);
+		boolean dirty = false;
+		double followRange = cir.getReturnValue();
+		for (ModifySizePower power : PowerHolderComponent.getPowers(target, ModifySizePower.class)) {
+			if (power.isActive()) {
+				dirty = true;
+				followRange *= power.scale;
+			}
+		}
+		if (dirty) {
+			cir.setReturnValue(followRange);
 		}
 	}
 }

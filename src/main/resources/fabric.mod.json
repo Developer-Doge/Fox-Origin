@@ -5,8 +5,7 @@
   "name": "WiiDude's Custom Origins Mod",
   "description": "Adds more origins to the Origins mod and adds a lightweight Pehkui integration, this mod is heavily based off of extra origins.",
   "authors": [
-	"MoriyaShiine (for creating extra origins)",
-    "WiiDude"
+  "WiiDude"
   ],
   "contact": {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/wiidudes-fox-origin-mod/",
@@ -21,13 +20,14 @@
 	]
   },
   "mixins": [
-	"wiicustomorigins.mixins.json"
+	 "wiicustomorigins.mixins.json"
   ],
   "depends": {
-	"fabricloader": ">=0.11.0",
-	"fabric": "*",
-	"minecraft": "1.16.5",
-	"origins": ">=0.6.2",
-	"pehkui": ">=1.9.0+21w10a"
+    "fabricloader": "*",
+    "fabric": ">=0.42.0",
+    "minecraft": "1.17.x",
+    "origins": ">=1.1.4",
+    "pehkui": ">=2.5.3",
+    "java": ">=16"
   }
 }
