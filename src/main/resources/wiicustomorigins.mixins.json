@@ -4,7 +4,6 @@
   "package": "wiicustomorigins.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-	"TrackTargetGoalMixin"
   ],
   "injectors": {
 	"defaultRequire": 1

@@ -1,7 +1,7 @@
 package wiicustomorigins.common;
 
-import wiicustomorigins.common.registry.EOPowers;
-import wiicustomorigins.common.registry.EOScaleTypes;
+import wiicustomorigins.common.registry.ModPowers;
+import wiicustomorigins.common.registry.ModScaleTypes;
 import net.fabricmc.api.ModInitializer;
 
 public class WiiCustomOrigins implements ModInitializer {
@@ -9,7 +9,7 @@ public class WiiCustomOrigins implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
-		EOScaleTypes.init();
-		EOPowers.init();
+		ModScaleTypes.init();
+		ModPowers.init();
 	}
 }
