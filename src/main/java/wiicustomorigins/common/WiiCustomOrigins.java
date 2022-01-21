@@ -1,7 +1,6 @@
 package wiicustomorigins.common;
 
-import wiicustomorigins.common.registry.ModPowers;
-import wiicustomorigins.common.registry.ModScaleTypes;
+import wiicustomorigins.common.registry.*;
 import net.fabricmc.api.ModInitializer;
 
 public class WiiCustomOrigins implements ModInitializer {

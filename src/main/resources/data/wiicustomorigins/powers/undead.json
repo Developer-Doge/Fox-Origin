@@ -1,6 +1,7 @@
 {
-  "type": "origins:entity_group",
-  "group": "undead",
+  "type": "wiicustomorigins:mob_neutrality",
   "name": "Undead",
-  "description": "You are passive towards monsters."
+  "entity_types": [
+  "skeleton"
+  ]
 }
